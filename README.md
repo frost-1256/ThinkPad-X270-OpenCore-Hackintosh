@@ -1,4 +1,4 @@
-# Lenovo-X270-Hackintosh-Monterey-OpenCore-0.9.2
+# Lenovo-X270-Hackintosh-Sonoma-OpenCore-0.9.2
 This repo contains the files and scripts to install macOS on the Lenovo X270 20K5
 You need to patch your systems own DSDT 
 
@@ -9,6 +9,7 @@ You need to patch your systems own DSDT
 - [x] macOS 12.2
 - [x] macOS 13.0
 - [x] macOS 13.4
+- [x] macOS 14.0(beta) 
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
@@ -48,7 +49,7 @@ You need to patch your systems own DSDT
 - [x] Trackpad (gestures work but not the trackpad click. tap to click works.)
 - [x] Shutdown / Reboot 
 - [x] Keyboard (incuding all fn Keys)
-- [x] Wi-Fi & Bluetooth (including Apple services)
+- [x] Wi-Fi & Bluetooth (including Apple services) ```Note: Airportitlwm is not working right now so we are using itlwm and heliport app instead.```
 - [x] iMessage, FaceTime, App Store, iTunes Store (with valid smbios)
 - [x] DRM support (iTunes Movies, Apple TV+, Amazon Prime and Netflix, and others)
 - [x] SD Card Reader (v2.2 works but still a bit unstable)
@@ -57,6 +58,7 @@ You need to patch your systems own DSDT
 # What's not working ⚠️
 - [x] Everything looks perfect for now 
 
-
+#Installation
+- [x] For installation SMBIOS is selected MacbookPro 15,2 but when you finish installing you must change your SMBIOS to MacbookPro 13,1.
 
 
