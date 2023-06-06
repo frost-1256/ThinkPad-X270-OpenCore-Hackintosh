@@ -58,7 +58,7 @@ You need to patch your systems own DSDT
 # What's not working ⚠️
 - [x] Everything looks perfect for now 
 
-#Installation
+# Installation
 - [x] For installation SMBIOS is selected MacbookPro 15,2 but when you finish installing you must change your SMBIOS to MacbookPro 13,1.
 
 
