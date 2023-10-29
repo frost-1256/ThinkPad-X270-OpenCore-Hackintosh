@@ -1,20 +1,15 @@
 # Lenovo-X270-Hackintosh-Ventura-OpenCore-0.9.2
-This repo contains the files and scripts to install macOS on the Lenovo X270 20K5
-You need to patch your systems own DSDT 
-
 ![X270](Images/screen.png)
+## Please make sure the SMBIOS is MacBookPro14,1 when installing Ventura
 
 # Update History
-- [x] macOS 12.1
-- [x] macOS 12.2
-- [x] macOS 13.0
-- [x] macOS 13.4
+- [x] 12.7.1
 
 # Laptop's Hardware
 - <b>Model</b>: Thinkpad X270
-- <b>CPU</b>: Intel(R) Core(TM) i5-6300U CPU @ 2.50GHz
+- <b>CPU</b>: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
 - <b>GPU</b>: Intel HD Graphics 520
-- <b>RAM</b>: 16 GB 2133MHz DDR4
+- <b>RAM</b>: 8 GB 2666 DDR4
 - <b>Screen</b>: 12,4" (1366x768)
 - <b>Wi-Fi</b>: AC-8260
 - <b>Camera</b>: 720p
@@ -45,7 +40,7 @@ You need to patch your systems own DSDT
 - [x] Intel Ethernet port
 - [x] Realtek Audio (including headphones jack)
 - [x] Internal camera (including Facetime)
-- [x] Trackpad (gestures work but not the trackpad click. tap to click works.)
+- [x] Trackpad (Clicking works, but all physical buttons detect right clicks.)
 - [x] Shutdown / Reboot 
 - [x] Keyboard (incuding all fn Keys)
 - [x] Wi-Fi & Bluetooth (including Apple services)
